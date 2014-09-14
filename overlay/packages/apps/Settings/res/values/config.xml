@@ -16,4 +16,5 @@
 
 <resources>
   <bool name="config_show_volumeRockerWake">true</bool>
+  <bool name="config_agps_enabled">true</bool>
 </resources>
