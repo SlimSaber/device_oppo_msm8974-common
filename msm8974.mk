@@ -64,14 +64,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.qc.sdk.audio.fluencetype=fluence \
     persist.audio.fluence.voicecall=true \
     audio.offload.buffer.size.kb=32 \
-    av.offload.enable=false \
-    av.streaming.offload.enable=false \
+    av.offload.enable=true \
+    av.streaming.offload.enable=true \
     use.voice.path.for.pcm.voip=true \
     audio.offload.multiple.enabled=false \
-    audio.offload.gapless.enabled=false \
+    audio.offload.gapless.enabled=true \
     tunnel.audio.encode=true \
     media.aac_51_output_enabled=true \
-    audio.offload.pcm.enable=false
+    audio.offload.pcm.enable=true
 
 # Charger
 PRODUCT_PACKAGES += \
