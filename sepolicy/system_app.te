@@ -7,8 +7,6 @@ allow system_app vibeamp_sysfs:file rw_file_perms;
 
 # display tuning
 allow system_app display_sysfs:file rw_file_perms;
-allow system_app pps_socket:sock_file rw_file_perms;
-allow system_app ctl_ppd_prop:property_service set;
 
 # color calibration
 allow system_app kcalctrl_sysfs:file { getattr open read write };
