@@ -197,6 +197,11 @@ PRODUCT_PACKAGES += \
     com.dsi.ant.antradio_library \
     libantradio
 
+# CameraNextMod
+PRODUCT_PACKAGES += \
+    CameraNextMod \
+    libjni_mosaic
+
 # Set default USB interface
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mtp
