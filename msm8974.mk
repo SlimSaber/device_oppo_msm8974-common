@@ -236,7 +236,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0 \
     ro.qualcomm.perf.cores_online=2 \
     ro.vendor.extension_library=libqti-perfd-client.so \
-    ro.telephony.call_ring.multiple=0
+    ro.telephony.call_ring.multiple=0 \
+    dalvik.vm.image-dex2oat-filter=everything \
+    dalvik.vm.dex2oat-filter=everything
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.qti.sensors.ir_proximity=true
