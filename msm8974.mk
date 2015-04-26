@@ -199,7 +199,7 @@ PRODUCT_PACKAGES += \
 # CameraNextMod
 PRODUCT_PACKAGES += \
     CameraNextMod \
-    libjni_mosaic
+    libjni_mosaic_next
 
 # Set default USB interface
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
