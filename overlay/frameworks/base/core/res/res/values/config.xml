@@ -254,6 +254,8 @@
         <item>power</item>
         <item>reboot</item>
         <item>airplane</item>
+        <item>screenshot</item>
+        <item>screencapture</item>
         <item>users</item>
         <item>silent</item>
     </string-array>
@@ -307,5 +309,8 @@
    <!-- Configure wifi tcp buffersizes in the form:
          rmem_min,rmem_def,rmem_max,wmem_min,wmem_def,wmem_max -->
     <string name="config_wifi_tcp_buffers" translatable="false">524288,2097152,4194304,262144,524288,1048576</string>
+
+    <!-- Flag indicating if device supports EAP SIM, AKA, AKA' -->
+    <bool name="config_eap_sim_based_auth_supported">false</bool>
 
 </resources>
